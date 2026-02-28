@@ -1,0 +1,179 @@
+
+:root {
+    --primary-soft: #4f8f88;     
+    --primary-dark: #244b47;      
+    --text-main: #1f2d2a;         
+    --text-muted: #5f6f6d;        
+    --bg-main: #d6e7e4;           
+    --bg-section: #ffffff;       
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+
+.navbar {
+    background-color: #f7faf9 !important;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--primary-dark) !important;
+}
+
+.navbar .nav-link {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-soft);
+}
+
+
+.hero-section {
+    background: linear-gradient(
+        180deg,
+        #f1f6f5,
+        #dfeceb
+    );
+    padding: 90px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1 {
+    color: var(--primary-dark);
+    font-weight: 700;
+}
+
+.hero-section p {
+    color: var(--text-main);
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 1.5rem 3rem rgba(0,0,0,0.15);
+}
+
+
+.card {
+    border-radius: 16px;
+    border: none;
+    background-color: var(--bg-section);
+    transition: all 0.25s ease;
+}
+main, .content-wrapper, .product-listing, .blog-page, .contact-page {
+    background-color: var(--bg-main);
+    padding-bottom: 50px;
+}
+.product-card-hover:hover,
+.category-card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.18);
+}
+
+.featured-products .card img,
+.new-arrivals .card img {
+    height: 280px;
+    object-fit: cover;
+    background-color: #cfe4e0;
+}
+
+
+.category-item {
+    text-align: center;
+    padding: 25px;
+}
+
+.category-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+
+aside .card {
+    background-color: var(--bg-section);
+    border-radius: 16px;
+}
+
+aside h2,
+aside p {
+    color: var(--text-main);
+}
+
+.col-md-8 > h1 {
+    color: var(--primary-dark);
+}
+
+.col-md-8 > p {
+    color: var(--text-muted);
+}
+
+h1, h2, h3, h4, h5, .card-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-dark);
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.text-primary {
+    color: var(--primary-soft) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-soft);
+    border-color: var(--primary-soft);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-soft);
+    color: var(--primary-soft);
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-soft);
+    border-color: var(--primary-soft);
+    color: #ffffff;
+}
+
+.badge {
+    font-weight: 600;
+    border-radius: 14px;
+}
+
+footer {
+    background-color: #1b2a27 !important;
+    color: #e3f0ee;
+}
+
+footer h5 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+footer a {
+    color: #b9d9d5;
+}
+
+footer a:hover {
+    color: var(--primary-soft) !important;
+}

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!---awal navbar--->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">AromaLoka</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="produk.html">Products</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Akhir navbar-->
+
+<!-- Awal Hero-->
+ <section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-md-6">
+                <h1 class="display-4"> Setiap Rumah Punya Cerita. 
+                    <br>Biarkan Aroma yang Menghidupkannya.</h1>
+                <p class="lead">Summer Sale - 70% OFF</p>
+                <p>Mulai dari Rp.50.000</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+            <div class="col-md-6">
+                <img src="https://media.istockphoto.com/id/1406993468/id/foto/wanita-mencium-minyak-atsiri-di-toko.jpg?s=612x612&w=0&k=20&c=EjLW3zYE1YMkcRsX3mKQUyiWH0BKei_O7Z9vb73cdBQ="
+                     alt="Ecommerce">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Awal feature-->
+<section>
+    <div class="bg-5 bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <!---card 1--->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm text-center p-4 align-items-center">
+                    <i class="fas fa-shipping-fast fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Gratis Ongkir & Pengembalian</h5>
+                    <p class="card-text">Gratis ongkir untuk semua pesanan di atas Rp.50.000.</p>
+                    </div>
+                </div>
+
+                <!---card 2--->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm text-center p-4 align-items-center">
+                    <i class="fas fa-undo-alt fa-3x text-succes mb-3"></i>
+                    <h5 class="card-title">Garansi Uang Kembali</h5>
+                    <p class="card-text">Garansi uang kembali 100%</p>
+                    </div>
+                </div>
+                <!---card 3--->
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm text-center p-4 align-items-center">
+                    <i class="fas fa-headset fa-3x text-into mb-3"></i>
+                    <h5 class="card-title">Customer Care 24/7</h5>
+                    <p class="card-text">Kami siap membantu setiap pertanyaan dan kebutuhanmu kapan saja dengan pelayanan yang ramah dan responsif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Awal Featured Products -->
+<section class="featured-products py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Produk Unggulan</h2>
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <!-- Label Discount -->
+                    <span class="badge bg-success position-absolute top-0 start-0 m-2">HOT</span>
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">-10%</span>
+                    <!-- Product Image -->
+                    <img src="https://images.unsplash.com/photo-1675902773492-8c5c4331292d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVjb21tZXJjZSUyMFNjZW50ZWQlMjBDYW5kbGUlMjAoTGlsaW4lMjBBcm9tYXRlcmFwaSl8ZW58MHx8MHx8fDA%3D" 
+                    class="card-img-top" alt="Product 1">
+                    <!-- Card Body -->
+                    <div class="card-body text-center">
+                        <p class="text-muted mb-1">KATEGORI</p>
+                        <h5 class="card-title">Lilin Aromaterapi</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <p class="text-muted"><s>Rp.200.000</s> <span class="text-dark fw-bold">Rp.170.000</span></p>
+                        <button class="btn btn-outline-primary w-100">Pilih Opsi</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <!-- Label Discount -->
+                    <span class="badge bg-success position-absolute top-0 start-0 m-2">HOT</span>
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">-20%</span>
+                    <!-- Product Image -->
+                    <img src="https://images.unsplash.com/photo-1659440508855-2d0db5654ae6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVlZCUyMGRpZmZ1c2VyfGVufDB8MHwwfHx8MA%3D%3D" 
+                    class="card-img-top" alt="Product 1">
+                    <!-- Card Body -->
+                    <div class="card-body text-center">
+                        <p class="text-muted mb-1">KATEGORI</p>
+                        <h5 class="card-title">Reed Diffuser</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <p class="text-muted"><s>Rp.300.000</s> <span class="text-dark fw-bold">Rp.240.000</span></p>
+                        <button class="btn btn-outline-primary w-100">Pilih Opsi</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <!-- Label Discount -->
+                    <span class="badge bg-success position-absolute top-0 start-0 m-2">HOT</span>
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">-30%</span>
+                    <!-- Product Image -->
+                    <img src="https://media.istockphoto.com/id/2148256424/id/foto/tangan-wanita-memegang-kaleng-penyegar-udara-untuk-menghilangkan-bau-tidak-sedap-di-dapur.jpg?s=612x612&w=0&k=20&c=tB-7ehIZIYKZohZTt1NGzgshx5rEPzo9MSknhV65S0c=" 
+                    class="card-img-top" alt="Product 1">
+                    <!-- Card Body -->
+                    <div class="card-body text-center">
+                        <p class="text-muted mb-1">KATEGORI</p>
+                        <h5 class="card-title">Room Spray</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <p class="text-muted"><s>Rp.500.000</s> <span class="text-dark fw-bold">Rp.350.000</span></p>
+                        <button class="btn btn-outline-primary w-100">Pilih Opsi</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <!-- Label Discount -->
+                    <span class="badge bg-success position-absolute top-0 start-0 m-2">HOT</span>
+                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">-50%</span>
+                    <!-- Product Image -->
+                    <img src= "https://media.istockphoto.com/id/2213045166/photo/luxury-aroma-reed-diffuser-air-freshener-on-table-in-nice-design-bedroom-to-create-good-relax.webp?a=1&b=1&s=612x612&w=0&k=20&c=AuR5tns_uP97vf4wX7yrABKaXzkB4sWSRFlxauWDAWI="
+                    class= "card-img-top" alt="Product 1">
+                    <!-- Card Body -->
+                    <div class="card-body text-center">
+                        <p class="text-muted mb-1">KATEGORI</p>
+                        <h5 class="card-title">Aroma Series / Signature Scents</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <p class="text-muted"><s>Rp.1.000.000</s> <span class="text-dark fw-bold">Rp.500.000</span></p>
+                        <button class="btn btn-outline-primary w-100">Pilih Opsi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Featured Products -->
+
+<!--Awal Products -->
+    <section class="featured-products py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Products</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1704380943467-c5c48b68db21?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHNjZW50ZWQlMjBjYW5kbGUlMjB3YXJtJTIwdmFuaWxsYXxlbnwwfDB8MHx8fDA%3D" 
+                        class="card-img-top" alt="Product 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Lilin Aromaterapi Lavender</h5>
+                            <p class="text-muted"><s>Rp.100.000</s>Rp.70.000</p>
+                            <button class="btn btn-outline-primary">Masukkan Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/2204312501/photo/zen-aroma-therapy-close-up-copy-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=J9wgdISkLZCpbYJtJGIdiQjtwaJl-LPovUdtPegeUyw=" 
+                        class="card-img-top" alt="Product 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pengharum Ruangan Batang Melati Segar</h5>
+                            <p class="text-muted"><s>Rp.200.000</s>Rp.140.000</p>
+                            <button class="btn btn-outline-primary">Masukkan Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1639677357385-92d3c33c0766?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fERpZmZ1c2VyfGVufDB8MXwwfHx8MA%3D%3D" 
+                        class="card-img-top" alt="Product 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Semprotan Pengharum Ruangan Kopi Pagi</h5>
+                            <p class="text-muted"><s>Rp.300.000</s>Rp.270.000</p>
+                            <button class="btn btn-outline-primary">Masukkan Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/2214233312/id/foto/penyegar-udara-hot-melt-diffuser-aroma-mewah-di-atas-meja-di-kamar-tidur-desain-yang-bagus.jpg?s=612x612&w=0&k=20&c=PUeCDo_nvzcEtTg81huJB4aG9mO8ncCuec9sRIYYq_s=" 
+                        class="card-img-top" alt="Product 4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pengharum Ruangan Edisi Terbatas</h5>
+                            <p class="text-muted"><s>Rp.1.000.000</s>Rp.500.000</p>
+                            <button class="btn btn-outline-primary">Masukkan Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--Akhir Products -->
+
+<!-- Awal Service Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4 text-center">
+            <!-- Customer Support -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="mb-4">
+                            <i class="fas fa-heart fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold">KUALITAS HANDMADE</h5>
+                        <p class="text-muted">Kami Menemani Setiap Momen Anda</p>
+                        <p class="small text-muted">AromaLoka adalah brand lokal yang menghadirkan produk aromaterapi dan homefragrance handmade 
+                        seperti scented candle, reed diffuser, dan room spray. Kami
+                        percaya, wangi yang tepat bisa mengubah suasana rumah dan pada akhirnya
+                        mengubah mood dan hari-harimu.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fully Customizable -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="mb-4">
+                            <i class="fas fa-wind fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold">VARIAN AROMA PILIHAN</h5>
+                        <p class="text-muted">Aroma untuk Setiap Cerita Rumah</p>
+                        <p class="small text-muted">Semua produk kami dibuat dalam small batch dengan bahan 
+                        yang lebih ramah rumah, seperti soy wax blend dan fragrance pilihan. Setiap aroma
+                        kami rancang sebagai sebuah cerita: dari Morning Brew yang mengingatkanmu
+                        pada kopi pagi di kafe favorit, hingga Cloudy Linen yang terasa seperti seprai bersih
+                        di kamar yang rapi.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Powerful Admin -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="mb-4">
+                            <i class="fas fa-home fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="fw-bold">OUR STORY</h5>
+                        <p class="text-muted">Dibuat untuk Membantu Anda</p>
+                        <p class="small text-muted">AromaLoka lahir dari dua sahabat yang ingin rumah terasa lebih dari sekadar tempat pulang; 
+                        rumah adalah ruang untuk istirahat, bercerita, dan menjadi diri sendiri. Melalui produk-produk kami, kami ingin menemanimu 
+                        menciptakan momen-momen kecil yang hangat dan personal, satu wangi pada satu waktu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Service Section -->
+<!-- Awal Latest News Section -->
+<section class="py-5">
+ <div class="container">
+        <h2 class="text-center mb-4">BERITA TERBARU</h2>
+        <div class="row g-4">
+
+            <!-- News Item 1 -->
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top ms-4" alt="Top New Collection">
+                        <div class="position-absolute top-0 start-0 bg-dark text-white p-2">
+                            <span class="d-block fw-bold">01</span>
+                            <span class="text-uppercase small">DES</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold ms-4">Koleksi Baru Teratas</h5>
+                        <p class="card-text text-muted small">Koleksi terbaru AromaLoka menghadirkan wangi-wangi pilihan yang diciptakan untuk
+                        membangun suasana nyaman dan menenangkan di setiap sudut rumahmu. ...</p>
+                        <p class="text-muted small mb-0"><i class="far fa-comment"></i> 0 Komentar</p>
+                    </div>
+                </div>
+            </div>
+            <!-- News Item 2 -->
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top ms-4" alt="Aroma Trends">
+                        <div class="position-absolute top-0 start-0 bg-dark text-white p-2">
+                            <span class="d-block fw-bold">12</span>
+                            <span class="text-uppercase small">DES</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold ms-4">Aroma Trends</h5>
+                        <p class="card-text text-muted small">Inspirasi tren aroma masa kini yang menghadirkan wangi-wangi 
+                            modern untuk mendukung gaya hidup nyaman dan penuh ketenangan....</p>
+                        <p class="text-muted small mb-0"><i class="far fa-comment"></i> 0 Komentar</p>
+                    </div>
+                </div>
+            </div>
+            <!-- News Item 3 -->
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top ms-4" alt="Right Choices">
+                        <div class="position-absolute top-0 start-0 bg-dark text-white p-2">
+                            <span class="d-block fw-bold">05</span>
+                            <span class="text-uppercase small">des</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold ms-4">Pilihan yang Tepat</h5>
+                        <p class="card-text text-muted small">Memilih aroma yang tepat dapat membantu menciptakan suasana rumah yang lebih nyaman, 
+                        tenang, dan sesuai dengan kepribadian penghuninya....</p>
+                        <p class="text-muted small mb-0"><i class="far fa-comment"></i> 0 Komentar</p>
+                    </div>
+                </div>
+            </div>
+            <!-- News Item 4 -->
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top ms-4" alt="Perfect Aromaterapi">
+                        <div class="position-absolute top-0 start-0 bg-dark text-white p-2">
+                            <span class="d-block fw-bold">07</span>
+                            <span class="text-uppercase small">des</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold ms-4">Aroma yang Sempurna</h5>
+                        <p class="card-text text-muted small">Produk home fragrance seperti lilin aromaterapi dan pengharum ruangan 
+                        dapat menjadi sentuhan akhir yang menyempurnakan suasana dan estetika rumah....</p>
+                        <p class="text-muted small mb-0"><i class="far fa-comment"></i> 0 Komentar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Latest News Section -->
+ 
+<!-- Awal Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Info -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">CONTACT INFO</h5>
+                <p class="mb-1"><strong>ALAMAT:</strong> Bandung, Jawa Barat, Indonesia</p>
+                <p class="mb-1"><strong>TELEPON:</strong> +62 812-9876-5432</p>
+                <p class="mb-1"><strong>EMAIL:</strong> hello@aromaloka.id</p>
+                <p class="mb-1"><strong>HARI & JAM OPERASIONAL:</strong> Senin – Minggu / 09.00 – 20.00 WIB</p>
+                <div class="mt-3">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <!-- Customer Service -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">LAYANAN PELANGGAN</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Bantuan & Tanya Jawab</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Lacak Pesanan</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Pengiriman & Pengantaran</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Riwayat Pesanan</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Pencarian Lanjutan</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Akun Saya</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Karier</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Tentang AromaLoka</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Penjualan Korporat</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+            <!-- Popular Tags -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">POPULAR TAGS</h5>
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Lilin Aromaterapi</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Pengharum Ruangan</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Reed Diffuser</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Aroma Kopi</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Seprai Bersih</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Lavender</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Handmade</a>
+                    <a href="#" class="badge bg-secondary text-white me-2 mb-2">Gift Set</a>
+                </div>
+            </div>
+            <!-- Subscribe Newsletter -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">LANGGANAN NEWSLETTER</h5>
+                <p>Dapatkan informasi terbaru seputar koleksi aroma, cerita di balik produk, serta penawaran spesial dari AromaLoka.</p>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email address" aria-label="Email address">
+                        <button class="btn btn-primary" type="submit">LANGGANAN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="bg-secondary">
+<div class="d-flex justify-content-between align-items-center">
+    <p class="mb-0">© AromaLoka. Semua Hak Dilindungi.</p>
+    <div>
+        <i class="fas fa-university fa-2x text-white me-3" 
+           title="Transfer Bank"></i>
+        <i class="fas fa-wallet fa-2x text-white me-3" 
+           title="E-Wallet (OVO, GoPay, DANA, ShopeePay)"></i>
+        <i class="fas fa-qrcode fa-2x text-white me-3" 
+           title="Pembayaran QRIS"></i>
+        <i class="fas fa-shield-alt fa-2x text-white" 
+           title="Transaksi Aman & Terenkripsi"></i>
+    </div>
+</div>
+
+    </div>
+</footer>
+<!-- Akhir Footer -->
+</section>
+
+    <!--import boostrap CSS-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
